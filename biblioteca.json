@@ -1,0 +1,110 @@
+{
+    "biblioteca": "Biblioteca Central",
+    "endereco": {
+        "cidade": "Ribeirão Preto",
+        "estado": "SP"
+    },
+    "categorias": [
+        {
+            "nome": "Tecnologia",
+            "responsavel": "Mariana",
+            "livros": [
+                {
+                    "id": 1,
+                    "titulo": "Python para Iniciantes",
+                    "autor": "Carlos Silva",
+                    "ano": 2023,
+                    "disponivel": true,
+                    "tags": [
+                        "Python",
+                        "Programação",
+                        "Iniciante"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo": "Lógica de Programação",
+                    "autor": "Ana Costa",
+                    "ano": 2021,
+                    "disponivel": false,
+                    "tags": [
+                        "Lógica",
+                        "Algoritmos"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo": "Banco de Dados na Prática",
+                    "autor": "Rafael Souza",
+                    "ano": 2024,
+                    "disponivel": true,
+                    "tags": [
+                        "SQL",
+                        "Banco de Dados"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "Literatura",
+            "responsavel": "João",
+            "livros": [
+                {
+                    "id": 4,
+                    "titulo": "O Pequeno Príncipe",
+                    "autor": "Antoine de Saint-Exupéry",
+                    "ano": 1943,
+                    "disponivel": true,
+                    "tags": [
+                        "Fantasia",
+                        "Clássico"
+                    ]
+                },
+                {
+                    "id": 5,
+                    "titulo": "Dom Casmurro",
+                    "autor": "Machado de Assis",
+                    "ano": 1899,
+                    "disponivel": false,
+                    "tags": [
+                        "Romance",
+                        "Literatura Brasileira"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "História",
+            "responsavel": "Fernanda",
+            "livros": [
+                {
+                    "id": 6,
+                    "titulo": "Uma Breve História do Tempo",
+                    "autor": "Stephen Hawking",
+                    "ano": 1988,
+                    "disponivel": true,
+                    "tags": [
+                        "Ciência",
+                        "História"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "titulo": "Sapiens",
+                    "autor": "Yuval Noah Harari",
+                    "ano": 2011,
+                    "disponivel": true,
+                    "tags": [
+                        "História",
+                        "Humanidade"
+                    ]
+                }
+            ]
+        }
+    ],
+    "horario_funcionamento": {
+        "segunda_a_sexta": "08:00 às 18:00",
+        "sabado": "08:00 às 12:00",
+        "domingo": null
+    }
+}
